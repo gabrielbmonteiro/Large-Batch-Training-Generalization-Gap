@@ -12,7 +12,8 @@ O uso de grandes lotes (*Large-Batch*) é uma estratégia crucial para explorar 
 
 Este projeto analisa as duas frentes que explicam esse comportamento:
 
-1. **A Geometria dos Mínimos Locais (Sharp vs. Flat Minima):** * **Small-Batch (SB):** A natureza estocástica do gradiente introduz um ruído que atua como um regularizador natural, empurrando o otimizador para fora de vales estreitos e confinando o modelo em **mínimos planos (*Flat Minima*)**. Esses vales toleram pequenas variações estruturais entre os dados de treino e teste.
+1. **A Geometria dos Mínimos Locais (Sharp vs. Flat Minima):**
+   * **Small-Batch (SB):** A natureza estocástica do gradiente introduz um ruído que atua como um regularizador natural, empurrando o otimizador para fora de vales estreitos e confinando o modelo em **mínimos planos (*Flat Minima*)**. Esses vales toleram pequenas variações estruturais entre os dados de treino e teste.
    * **Large-Batch (LB):** A aproximação do gradiente é estável e determinística, fazendo com que o algoritmo convirja para os mínimos agudos mais próximos (**mínimos agudos (*Sharp Minima*)**). Nestes vales estreitos, qualquer discrepância sutil na superfície de perda resulta em uma perda acentuada de generalização.
 2. **Efeito dos Otimizadores:** Análise do comportamento exploratório do algoritmo **SGD Puro** em contraposição ao comportamento de convergência acelerada de algoritmos baseados em momentos adaptativos, como o **Adam**.
 
