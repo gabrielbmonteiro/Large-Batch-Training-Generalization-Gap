@@ -1,6 +1,6 @@
 # On Large-Batch Training for Deep Learning: Investigating the Generalization Gap and the Geometry of Local Minima 🧠📊
 
-Este repositório contém o projeto de pesquisa, reprodução computacional e extensão prática desenvolvido para a disciplina de **Tópicos Avançados em Aprendizado de Máquina (CK0255)** do Departamento de Computação da Universidade Federal do Ceará (UFC). 
+Este repositório contém o projeto de pesquisa, reprodução computacional e extensão prática desenvolvido para a disciplina de **Tópicos Avançados em Aprendizado de Máquina (CK0255)** da Universidade Federal do Ceará (UFC). 
 
 O trabalho investiga o fenômeno do **Generalization Gap** (lacuna de generalização) em redes neurais profundas, tomando como base o artigo científico seminal de **Keskar et al. (ICLR, 2017)**. O ecossistema prático valida as hipóteses dos autores tanto em cenários clássicos de classificação quanto em tarefas complexas de detecção de objetos no setor de transporte e tráfego.
 
